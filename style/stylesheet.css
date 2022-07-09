@@ -7,3 +7,12 @@ font-family: 'Londrina Shadow', cursive;
 font-family: 'Poppins', sans-serif;
 font-family: 'Splash', cursive;
 */
+*{margin:0 ;padding:0;box-sizing: border-box;}
+/*fast seciton design*/
+.fastimgsec{
+    background-image: url(../media/image/fastImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 77vh;
+    color:white
+}
