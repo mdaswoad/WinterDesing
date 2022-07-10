@@ -1,11 +1,12 @@
 /*font link for googleFonts*/
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Londrina+Shadow&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Londrina+Shadow&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 /*fontname*/
 /*
 font-family: 'Edu SA Beginner', cursive;
 font-family: 'Londrina Shadow', cursive;
 font-family: 'Poppins', sans-serif;
 font-family: 'Splash', cursive;
+font-family: 'Ubuntu', sans-serif;
 */
 *{margin:0 ;padding:0;box-sizing: border-box;}
 /*fast seciton design*/
@@ -15,4 +16,71 @@ font-family: 'Splash', cursive;
     background-size: cover;
     height: 77vh;
     color:white
+}
+section{
+    overflow: hidden;
+}
+.continer{
+    width:1080px;
+    margin:auto;
+    display: flex;
+}
+.contenText{
+    width:540px;
+}
+.contenText h1{
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 4.5rem;
+    margin: 201px 89px 0px 0px;
+}
+.contenText p{
+    font-family: arial;
+    padding:20px 0;
+    line-height: 1.4rem;
+
+}
+/*secondWinter design*/
+.secondWinter{
+    height:700px
+}
+.flexBox-wrap{
+    display:flex;
+}
+.leftcontent{
+    width:50%;
+}
+.writeContent{
+    background-image:url(../media/image/secondSectin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.leftcontent h2{
+    font-family: Ubuntu, sans-serif;
+    margin: 142px 0px 0px 100px;
+    padding: 25px 0px;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.leftcontent p{
+    padding:16px 100px;
+    font-family: arial;
+    font-weight:500;
+    line-height: 1.9rem;
+    color:#111111
+
+}
+.leftcontent a{
+    display: block;
+    width: 120px;
+    text-transform: uppercase;
+    font-family: Ubuntu, sans-serif;
+    border: 2px solid red;
+    text-align: center;
+    font-weight: 500;
+    margin: 45px 0px 160px 100px;
+    text-decoration: none;
+    color: red;
+    padding: 8px 0px;
 }
