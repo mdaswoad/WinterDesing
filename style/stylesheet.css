@@ -14,7 +14,7 @@ font-family: 'Ubuntu', sans-serif;
     background-image: url(../media/image/fastImage.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 77vh;
+    height: 80%;
     color:white
 }
 section{
@@ -27,6 +27,7 @@ section{
 }
 .contenText{
     width:540px;
+    margin:100px 0px;
 }
 .contenText h1{
     font-family: Ubuntu, sans-serif;
@@ -36,14 +37,15 @@ section{
 }
 .contenText p{
     font-family: arial;
-    padding:20px 0;
+    padding:40px 0;
     line-height: 1.4rem;
+    margin-bottom:20px;
 
 }
 /*secondWinter design*/
-.secondWinter{
+/* .secondWinter{
     height:700px
-}
+} */
 .flexBox-wrap{
     display:flex;
 }
@@ -55,32 +57,137 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
+    background-position: 50% 50%;
 }
 .leftcontent h2{
     font-family: Ubuntu, sans-serif;
-    margin: 142px 0px 0px 100px;
-    padding: 25px 0px;
+    margin: 160px 89px 30px 100px;
+    padding: 0px 0px;
     font-weight: 500;
     font-size: 2.5rem;
 }
 .leftcontent p{
-    padding:16px 100px;
+    padding:0px 100px;
     font-family: arial;
     font-weight:500;
     line-height: 1.9rem;
     color:#111111
 
 }
-.leftcontent a{
+.leftcontent a {
     display: block;
-    width: 120px;
+    width: 135px;
     text-transform: uppercase;
     font-family: Ubuntu, sans-serif;
     border: 2px solid red;
     text-align: center;
-    font-weight: 500;
-    margin: 45px 0px 160px 100px;
+    font-weight: 400;
+    margin: 50px 0px 160px 100px;
     text-decoration: none;
     color: red;
-    padding: 8px 0px;
+    padding: 11px 0px;
+}
+/*gallery image */
+.imgOne{
+    background-image: url(../media/image/SectonThFast.jpeg);
+
+}
+.imgTwo{
+    background-image: url(../media/image/sectionthTow.jpeg);
+}
+.imgThree{
+    background-image: url(../media/image/sectonThTin.jpeg);
+}
+.imgFour{
+    background-image: url(../media/image/four.jpeg);
+}
+.boxWrap{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 430px;
+}
+.imageBox{
+    background-position: 50% 50%;
+    background-size:cover;
+}
+/* gellary section design*/
+.boxWrappergl-text{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.gl-center {
+    background-image: url(../media/image/SecThfour.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.gl-left {
+    background-color: #65c887;
+    color: white;
+}
+.gl-left h2{
+    font-family: Ubuntu, sans-serif;
+    padding: 50px 0px 20px 80px;
+    font-size: 2.5rem;
+}
+.gl-box-img p {
+    font-family: arial;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 30px 0px 110px 80px;
+}
+.gl-write{
+    background-color: #3e729a;
+    text-align: right;
+    color :white
+}
+.gl-box-img.gl-write h2 {
+    font-family: 'Ubuntu';
+    font-size: 2.6rem;
+    padding: 76px 80px 19px 0px;
+}
+.gl-box-img.gl-write p {
+    padding: 24px 80px 0px 16px;
+}
+.gl-box-img {
+    padding: 30px 0;
+}
+/* one image and content design */
+.imgFlow{
+    display:flex;
+    background-color: #292f33;
+}
+.minBox {
+    width: 440px;
+    background-color: #eb484b;
+    color: white;
+    padding: 20px 16px;
+    text-align:right;
+    margin: 175px 100px;
+}
+.minBox h2{
+    padding: 20px 20px;
+    font-family:  Ubuntu, sans-serif;;
+    font-weight:300px
+}
+.minBox p {
+    padding: 0px 20px 40px;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+.minBox a {
+    display: block;
+    width: 135px;
+    text-transform: uppercase;
+    font-family: Ubuntu, sans-serif;
+    border: 2px solid rgb(204, 177, 177);
+    text-align: center;
+    font-weight: 400;
+    margin: 0px 3px 39px 253px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding: 11px 0px;
+    justify-content: right;
 }
