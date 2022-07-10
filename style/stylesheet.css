@@ -191,3 +191,89 @@ section{
     padding: 11px 0px;
     justify-content: right;
 }
+/* content section design */ 
+.continerBoxcommet{
+    display: flex;
+}
+.teamComent1{
+    padding:120px 100px;
+    background-color: #65c887;
+}
+.teamComent1 h2 {
+    padding: 20px 0px;
+    color: white;
+    font-family: Ubuntu;
+}
+.teamComent1 p {
+    font-family: arial;
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 40px;
+}
+.teamComent2{
+    padding:50px 100px;
+    text-align: right;
+    background-color: #3e729a;
+}
+.teamComent2 h2 {
+    padding: 20px 0px;
+    color: white;
+    font-family: Ubuntu;
+}
+.btn{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Ubuntu, sans-serif;
+    border: 2px solid white;
+    text-decoration: none;
+    color:white;
+    padding: 10px 16px;
+}
+.teamComent2 p {
+    font-family: arial;
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 40px;
+    line-height: 1.7rem;
+}
+/* communication  section */
+.fromAdderss{
+    background-color: #292f33;
+}
+.flexBoxWrapper {
+    display: flex;
+    width: 60%;
+    margin:100px auto;
+    background-color:#292f33;
+    color:white;
+}
+.contacinform{
+    width:50%
+}
+.iNPUT {
+    width: 85%;
+    padding: 20px 10px;
+    margin: 10px auto;
+    border-bottom: 2px solid #3e729a;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    background-color: transparent;
+}
+.iNPUT :focus{
+background-color: red !important;
+}
+.text h2{
+    font-family: Ubuntu, sans-serif;
+    padding: 0px 0px;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.tree{
+    font-family: ubuntu;
+    font-size: 1.6rem;
+    padding: 30px 0px;
+}
+.contacinform{
+    padding-bottom: 40px;
+}
