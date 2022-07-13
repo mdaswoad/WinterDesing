@@ -1,5 +1,6 @@
 /*font link for googleFonts*/
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Londrina+Shadow&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 /*fontname*/
 /*
 font-family: 'Edu SA Beginner', cursive;
@@ -8,72 +9,87 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Splash', cursive;
 font-family: 'Ubuntu', sans-serif;
 */
-*{margin:0 ;padding:0;box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*fast seciton design*/
-.fastimgsec{
+.fastimgsec {
     background-image: url(../media/image/fastImage.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 80%;
-    color:white
+    color: white
 }
-section{
+
+section {
     overflow: hidden;
 }
-.continer{
-    width:1080px;
-    margin:auto;
+
+.continer {
+    width: 1080px;
+    margin: auto;
     display: flex;
 }
-.contenText{
-    width:540px;
-    margin:100px 0px;
+
+.contenText {
+    width: 540px;
+    margin: 100px 0px;
 }
-.contenText h1{
+
+.contenText h1 {
     font-family: Ubuntu, sans-serif;
     font-weight: 400;
     font-size: 4.5rem;
     margin: 201px 89px 0px 0px;
 }
-.contenText p{
+
+.contenText p {
     font-family: arial;
-    padding:40px 0;
+    padding: 40px 0;
     line-height: 1.4rem;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 
 }
+
 /*secondWinter design*/
 /* .secondWinter{
     height:700px
 } */
-.flexBox-wrap{
-    display:flex;
+.flexBox-wrap {
+    display: flex;
 }
-.leftcontent{
-    width:50%;
+
+.leftcontent {
+    width: 50%;
 }
-.writeContent{
-    background-image:url(../media/image/secondSectin.png);
+
+.writeContent {
+    background-image: url(../media/image/secondSectin.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
     background-position: 50% 50%;
 }
-.leftcontent h2{
+
+.leftcontent h2 {
     font-family: Ubuntu, sans-serif;
     margin: 160px 89px 30px 100px;
     padding: 0px 0px;
     font-weight: 500;
     font-size: 2.5rem;
 }
-.leftcontent p{
-    padding:0px 100px;
-    font-family: arial;
-    font-weight:500;
-    line-height: 1.9rem;
-    color:#111111
 
+.leftcontent p {
+    padding: 0px 100px;
+    font-family: arial;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: #111111
 }
+
 .leftcontent a {
     display: block;
     width: 135px;
@@ -87,48 +103,59 @@ section{
     color: red;
     padding: 11px 0px;
 }
+
 /*gallery image */
-.imgOne{
+.imgOne {
     background-image: url(../media/image/SectonThFast.jpeg);
 
 }
-.imgTwo{
+
+.imgTwo {
     background-image: url(../media/image/sectionthTow.jpeg);
 }
-.imgThree{
+
+.imgThree {
     background-image: url(../media/image/sectonThTin.jpeg);
 }
-.imgFour{
+
+.imgFour {
     background-image: url(../media/image/four.jpeg);
 }
-.boxWrap{
-    display:grid;
+
+.boxWrap {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 430px;
 }
-.imageBox{
+
+.imageBox {
     background-position: 50% 50%;
-    background-size:cover;
+    background-size: cover;
 }
+
 /* gellary section design*/
-.boxWrappergl-text{
-    display:grid;
+.boxWrappergl-text {
+    display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
+
 .gl-center {
     background-image: url(../media/image/SecThfour.jpeg);
     background-size: cover;
     background-position: 50% 50%;
 }
+
 .gl-left {
     background-color: #65c887;
     color: white;
 }
-.gl-left h2{
+
+.gl-left h2 {
     font-family: Ubuntu, sans-serif;
     padding: 50px 0px 20px 80px;
     font-size: 2.5rem;
 }
+
 .gl-box-img p {
     font-family: arial;
     line-height: 1.8rem;
@@ -136,46 +163,56 @@ section{
     font-weight: 400;
     padding: 30px 0px 110px 80px;
 }
-.gl-write{
+
+.gl-write {
     background-color: #3e729a;
     text-align: right;
-    color :white
+    color: white
 }
-.gl-box-img.gl-write h2 {
+
+.gl-write h2 {
     font-family: 'Ubuntu';
     font-size: 2.6rem;
     padding: 76px 80px 19px 0px;
 }
-.gl-box-img.gl-write p {
+
+.gl-write p {
     padding: 24px 80px 0px 16px;
 }
+
 .gl-box-img {
     padding: 30px 0;
 }
+
 /* one image and content design */
-.imgFlow{
-    display:flex;
+.imgFlow {
+    display: flex;
     background-color: #292f33;
 }
+
 .minBox {
     width: 440px;
     background-color: #eb484b;
     color: white;
     padding: 20px 16px;
-    text-align:right;
+    text-align: right;
     margin: 175px 100px;
 }
-.minBox h2{
+
+.minBox h2 {
     padding: 20px 20px;
-    font-family:  Ubuntu, sans-serif;;
-    font-weight:300px
+    font-family: Ubuntu, sans-serif;
+    ;
+    font-weight: 300px
 }
+
 .minBox p {
     padding: 0px 20px 40px;
     line-height: 1.6rem;
     font-size: 1.2rem;
     font-family: arial;
 }
+
 .minBox a {
     display: block;
     width: 135px;
@@ -191,44 +228,52 @@ section{
     padding: 11px 0px;
     justify-content: right;
 }
-/* content section design */ 
-.continerBoxcommet{
+
+/* content section design */
+.continerBoxcommet {
     display: flex;
 }
-.teamComent1{
-    padding:120px 100px;
+
+.teamComent1 {
+    padding: 120px 100px;
     background-color: #65c887;
 }
+
 .teamComent1 h2 {
     padding: 20px 0px;
     color: white;
     font-family: Ubuntu;
 }
+
 .teamComent1 p {
     font-family: arial;
     font-size: 1.2rem;
     color: white;
     margin-bottom: 40px;
 }
-.teamComent2{
-    padding:50px 100px;
+
+.teamComent2 {
+    padding: 50px 100px;
     text-align: right;
     background-color: #3e729a;
 }
+
 .teamComent2 h2 {
     padding: 20px 0px;
     color: white;
     font-family: Ubuntu;
 }
-.btn{
+
+.btn {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: Ubuntu, sans-serif;
     border: 2px solid white;
     text-decoration: none;
-    color:white;
+    color: white;
     padding: 10px 16px;
 }
+
 .teamComent2 p {
     font-family: arial;
     font-size: 1.2rem;
@@ -236,20 +281,24 @@ section{
     margin-bottom: 40px;
     line-height: 1.7rem;
 }
+
 /* communication  section */
-.fromAdderss{
+.fromAdderss {
     background-color: #292f33;
 }
+
 .flexBoxWrapper {
     display: flex;
     width: 60%;
-    margin:100px auto;
-    background-color:#292f33;
-    color:white;
+    margin: 100px auto;
+    background-color: #292f33;
+    color: white;
 }
-.contacinform{
-    width:50%
+
+.contacinform {
+    width: 50%
 }
+
 .iNPUT {
     width: 85%;
     padding: 20px 10px;
@@ -259,21 +308,183 @@ section{
     border-right: 0;
     border-left: 0;
     background-color: transparent;
+    outline: none;
 }
-.iNPUT :focus{
-background-color: red !important;
+
+.iNPUT :focus {
+    background-color: red !important;
 }
-.text h2{
+
+.text h2 {
     font-family: Ubuntu, sans-serif;
     padding: 0px 0px;
     font-weight: 500;
     font-size: 2.5rem;
 }
-.tree{
+
+.tree {
     font-family: ubuntu;
     font-size: 1.6rem;
     padding: 30px 0px;
 }
-.contacinform{
+
+.contacinform {
     padding-bottom: 40px;
 }
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /*fast section design*/
+    .fastimgsec {
+        width: 100%;
+        height: none;
+        background-position: center center;
+    }
+
+    .continer {
+        width: 100%
+    }
+
+    .flexBox-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftcontent {
+        width: 100%;
+    }
+
+    .writeContent {
+        width: 100%;
+        height: 550px;
+    }
+
+    .leftcontent h2 {
+        margin: 25px 14px;
+    }
+
+    .leftcontent p {
+        padding: 20px 15px
+    }
+
+    .leftcontent a {
+        margin: 0px 10px 20px auto;
+    }
+
+    /* secton three design */
+    .boxWrap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 240vh;
+    }
+
+    .imageBox {
+        height: 100vh;
+    }
+    /*gellary section text design*/
+    .boxWrappergl-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .gl-left h2{
+        padding: 10px 30px ;
+    }
+    .gl-center{
+        height: 60vh;
+    }
+    .gl-write{
+        text-align: initial;
+    }
+    .gl-box-img p{
+        padding: 10px 30px 
+    }
+    .gl-write h2{
+        padding:10px 30px
+    }
+    /*one image and content design*/
+    .imgFlow {
+        flex-direction: column;
+        position:relative;
+        overflow: hidden;
+    }
+    .minBox{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .minBox a{
+        margin:20px auto;
+    }
+    .continerBoxcommet{
+        flex-direction: column;
+    }
+    .teamComent1{
+        padding: 50px 25px;
+    }
+    .teamComent1 h2{
+        font-size: 2.2rem;
+    }
+    .teamComent1{
+        text-align: center;
+    }
+    .teamComent1 p{
+        text-align: justify;
+    }
+    .teamComent2{
+        padding: 50px 25px;
+        text-align: center;
+    }
+    .teamComent2 p{
+        text-align: justify;
+    }
+    /* last section design  */
+    .flexBoxWrapper{
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+    }
+    .iNPUT{
+        width: 100%;
+        text-align: center;
+        outline: none;
+    }
+    .tree{
+        text-align: center;
+    }
+    .contacinform{
+        margin:auto;
+    }
+    .contacinform span {
+        padding:10px;
+        display: block;
+        text-transform: uppercase;
+    }
+    .text{
+        text-align: center;
+    }
+    .text h2 {
+        padding:30px 0px 
+    }
+    .text p {
+        margin-bottom: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
