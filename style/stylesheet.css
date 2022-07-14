@@ -344,13 +344,16 @@ section {
         height: none;
         background-position: center center;
     }
-    .contenText h1{
+
+    .contenText h1 {
         font-size: 2.6rem;
-        padding: 0px 1rem ;
+        padding: 0px 1rem;
     }
-    .contenText p{
+
+    .contenText p {
         padding: 25px 1rem;
     }
+
     .continer {
         width: 100%
     }
@@ -392,90 +395,114 @@ section {
     .imageBox {
         height: 100vh;
     }
+
     /*gellary section text design*/
-    .boxWrappergl-text{
+    .boxWrappergl-text {
         display: flex;
         flex-direction: column;
     }
-    .gl-left h2{
-        padding: 10px 30px ;
+
+    .gl-left h2 {
+        padding: 10px 30px;
     }
-    .gl-center{
+
+    .gl-center {
         height: 60vh;
     }
-    .gl-write{
+
+    .gl-write {
         text-align: initial;
     }
-    .gl-box-img p{
-        padding: 10px 30px 
+
+    .gl-box-img p {
+        padding: 10px 30px
     }
-    .gl-write h2{
-        padding:10px 30px
+
+    .gl-write h2 {
+        padding: 10px 30px
     }
+
     /*one image and content design*/
     .imgFlow {
         flex-direction: column;
-        position:relative;
+        position: relative;
         overflow: hidden;
     }
-    .minBox{
+
+    .minBox {
         width: 100%;
         margin: auto;
         text-align: center;
     }
-    .minBox a{
-        margin:20px auto;
+
+    .minBox a {
+        margin: 20px auto;
     }
-    .continerBoxcommet{
+
+    .continerBoxcommet {
         flex-direction: column;
     }
-    .teamComent1{
+
+    .teamComent1 {
         padding: 50px 25px;
     }
-    .teamComent1 h2{
+
+    .teamComent1 h2 {
         font-size: 2.2rem;
     }
-    .teamComent1{
+
+    .teamComent1 {
         text-align: center;
     }
-    .teamComent1 p{
+
+    .teamComent1 p {
         text-align: justify;
     }
-    .teamComent2{
+
+    .teamComent2 {
         padding: 50px 25px;
         text-align: center;
     }
-    .teamComent2 p{
+
+    .teamComent2 p {
         text-align: justify;
     }
+
     /* last section design  */
-    .flexBoxWrapper{
+    .flexBoxWrapper {
         flex-direction: column;
         width: 95%;
         margin: auto;
     }
-    .iNPUT{
+
+    .iNPUT {
         width: 100%;
         text-align: center;
         outline: none;
     }
-    .tree{
+
+    .tree {
         text-align: center;
     }
-    .contacinform{
-        margin:auto;
+
+    .contacinform {
+        margin: auto;
     }
+
     .contacinform span {
-        padding:10px;
+        padding: 10px;
         display: block;
         text-transform: uppercase;
     }
-    .text{
+
+    .text {
         text-align: center;
     }
+
     .text h2 {
-        padding:30px 0px 
+        padding: 30px 0px
     }
+
     .text p {
         margin-bottom: 20px;
     }
@@ -483,14 +510,391 @@ section {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .contentText {
+        width: 85%;
+        margin: auto;
+    }
+
+    .continer {
+        margin: auto;
+        width: 90%;
+    }
+
+    /*second section design*/
+    .leftcontent h2 {
+        margin: 3.4rem 2.1rem;
+        padding-top: 2.7rem;
+    }
+
+    .leftcontent p {
+        margin: 0 2.1rem;
+        padding: 0;
+    }
+
+    .leftcontent a {
+        margin: 3rem 2.1rem 3.5rem 2.1rem;
+    }
+
+    /*section three only image design*/
+    .boxWrap {
+        grid-template-columns: 1fr 1fr;
+        height: 55rem;
+    }
+
+    /*section gellary text section design */
+    .boxWrappergl-text {
+        grid-template-columns: 1fr;
+    }
+
+    .gl-left {
+        display: flex;
+        padding: 4.5rem 0;
+    }
+
+    .gl-left h2 {
+        width: 25%;
+        font-size: 1.4rem
+    }
+
+    .gl-left p {
+        width: 75%
+    }
+
+    .gl-center {
+        padding: 20rem 0;
+    }
+
+    .gl-write {
+        display: flex;
+        text-align: left;
+        padding: 4.5rem 0;
+    }
+
+    .gl-write h2 {
+        width: 25%;
+        font-size: 1.4rem;
+        padding: 1.5rem 1.4rem;
+    }
+
+    .gl-write p {
+        width: 75%
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+
+    /* one image and content design */
+    .imgFlow {
+        display: flex;
+        background-color: #292f33;
+    }
+    .imgFlow img {
+        width :50%;
+    }
+    .imgFlow >div{
+        width:50%
+    }
+    .minBox{
+        width:20rem
+    }
+    .minBox a{
+        margin: 0 3px 0 8.6rem
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+
+
+    .fastimgsec {
+        background-image: url(../media/image/fastImage.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80%;
+        color: white
+    }
+
+    section {
+        overflow: hidden;
+    }
+
+    .continer {
+        width: 1080px;
+        margin: auto;
+        display: flex;
+    }
+
+    .contenText {
+        width: 540px;
+        margin: 100px 0px;
+    }
+
+    .contenText h1 {
+        font-family: Ubuntu, sans-serif;
+        font-weight: 400;
+        font-size: 4.5rem;
+        margin: 201px 89px 0px 0px;
+    }
+
+    .contenText p {
+        font-family: arial;
+        padding: 40px 0;
+        line-height: 1.4rem;
+        margin-bottom: 20px;
+
+    }
+
+    /*secondWinter design*/
+    /* .secondWinter{
+        height:700px
+    } */
+    .flexBox-wrap {
+        display: flex;
+    }
+
+    .leftcontent {
+        width: 50%;
+    }
+
+    .writeContent {
+        background-image: url(../media/image/secondSectin.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50%;
+        background-position: 50% 50%;
+    }
+
+    .leftcontent h2 {
+        font-family: Ubuntu, sans-serif;
+        margin: 160px 89px 30px 100px;
+        padding: 0px 0px;
+        font-weight: 500;
+        font-size: 2.5rem;
+    }
+
+    .leftcontent p {
+        padding: 0px 69px;
+        font-family: arial;
+        font-weight: 500;
+        line-height: 1.9rem;
+        color: #111111
+    }
+
+    .leftcontent a {
+        display: block;
+        width: 135px;
+        text-transform: uppercase;
+        font-family: Ubuntu, sans-serif;
+        border: 2px solid red;
+        text-align: center;
+        font-weight: 400;
+        margin: 50px 0px 160px 100px;
+        text-decoration: none;
+        color: red;
+        padding: 11px 0px;
+    }
+
+    /*gallery image */
+    .imgOne {
+        background-image: url(../media/image/SectonThFast.jpeg);
+
+    }
+
+    .imgTwo {
+        background-image: url(../media/image/sectionthTow.jpeg);
+    }
+
+    .imgThree {
+        background-image: url(../media/image/sectonThTin.jpeg);
+    }
+
+    .imgFour {
+        background-image: url(../media/image/four.jpeg);
+    }
+
+    .boxWrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 430px;
+    }
+
+    .imageBox {
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+
+    /* gellary section design*/
+    .boxWrappergl-text {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .gl-center {
+        background-image: url(../media/image/SecThfour.jpeg);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .gl-left {
+        background-color: #65c887;
+        color: white;
+        flex-direction: column;
+    }
+
+    .gl-left h2 {
+        font-family: Ubuntu, sans-serif;
+        padding: 50px 0px 20px 80px;
+        font-size: 2.5rem;
+    }
+
+    .gl-box-img p {
+        font-family: arial;
+        line-height: 1.8rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 30px 0px 110px 80px;
+    }
+
+    .gl-write {
+        background-color: #3e729a;
+        text-align: right;
+        color: white;
+        flex-direction:column;
+    }
+
+    .gl-write h2 {
+        font-family: 'Ubuntu';
+        font-size: 2.6rem;
+        padding: 76px 80px 19px 0px;
+    }
+
+    .gl-write p {
+        padding: 24px 80px 0px 16px;
+    }
+
+    .gl-box-img {
+        padding: 30px 0;
+    }
+
+    /* one image and content design */
+    .imgFlow {
+        display: flex;
+        background-color: #292f33;
+    }
+    .imgFlow img {
+        width :60%;
+    }
+    .imgFlow >div{
+        width:40%
+    }
+
+    /* content section design */
+    .continerBoxcommet {
+        display: flex;
+    }
+
+    .teamComent1 {
+        padding: 120px 100px;
+        background-color: #65c887;
+    }
+
+    .teamComent1 h2 {
+        padding: 20px 0px;
+        color: white;
+        font-family: Ubuntu;
+    }
+
+    .teamComent1 p {
+        font-family: arial;
+        font-size: 1.2rem;
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    .teamComent2 {
+        padding: 50px 100px;
+        text-align: right;
+        background-color: #3e729a;
+    }
+
+    .teamComent2 h2 {
+        padding: 20px 0px;
+        color: white;
+        font-family: Ubuntu;
+    }
+
+    .btn {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: Ubuntu, sans-serif;
+        border: 2px solid white;
+        text-decoration: none;
+        color: white;
+        padding: 10px 16px;
+    }
+
+    .teamComent2 p {
+        font-family: arial;
+        font-size: 1.2rem;
+        color: white;
+        margin-bottom: 40px;
+        line-height: 1.7rem;
+    }
+
+    /* communication  section */
+    .fromAdderss {
+        background-color: #292f33;
+    }
+
+    .flexBoxWrapper {
+        display: flex;
+        width: 60%;
+        margin: 100px auto;
+        background-color: #292f33;
+        color: white;
+    }
+
+    .contacinform {
+        width: 50%
+    }
+
+    .iNPUT {
+        width: 85%;
+        padding: 20px 10px;
+        margin: 10px auto;
+        border-bottom: 2px solid #3e729a;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+        background-color: transparent;
+        outline: none;
+    }
+
+    .iNPUT :focus {
+        background-color: red !important;
+    }
+
+    .text h2 {
+        font-family: Ubuntu, sans-serif;
+        padding: 0px 0px;
+        font-weight: 500;
+        font-size: 2.5rem;
+    }
+
+    .tree {
+        font-family: ubuntu;
+        font-size: 1.6rem;
+        padding: 30px 0px;
+    }
+
+    .contacinform {
+        padding-bottom: 40px;
+    }
+
+}
